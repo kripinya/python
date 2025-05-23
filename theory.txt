@@ -1,0 +1,37 @@
+-What is Programming?
+Programming is the process of giving instructions to a computer to perform specific tasks. These instructions are written in a programming 
+language, which is designed to be readable by humans (called a high-level language) but can be translated into something a computer can 
+understand.
+
+-Why Programming is Needed?
+Computers do not understand human language. They only understand binary language (a series of 0s and 1s), known as machine code.
+
+-How Programming Works?
+	1.	Writing the Code: Programmers write instructions using a high-level language like Python, Java, or C++.
+	2.	Translation: This code is then translated into binary using:
+	•	A compiler (converts the whole program at once, e.g., in C++)
+	•	An interpreter (converts and runs line by line, e.g., in Python)
+	3.	Execution: The computer executes the binary instructions to perform the desired task.
+
+    print function- used to print the output.
+    Characterset- letters(Atoz), digits(0 to 9), special symbols(-, *, + ,=), whitespaces, ther characters(all ASCII and unicode characters)
+    variables- a variable is a name given to a memory location in a program
+    = assignment operator
+    data types(Integer, string, float, double, boolean, none)
+
+    comment out a block of code => command + / or """ sdsvcdjhvscjk""" for a single line - #
+
+    types of operators
+    -arithmetic operator(+,-. *), relational operator, asignment operator(==, <=, >=), logical operator(and, or, not)
+    🎯 Type Casting
+	•	What: Manual conversion of one data type to another by the programmer.
+	•	When: Done explicitly using functions like int(), float(), str(), etc.
+	•	Example:a = "10"
+b = int(a)  # '10' (string) converted to 10 (int)
+🔄 Type Conversion
+	•	What: Automatic conversion done by the Python interpreter.
+	•	When: Happens implicitly when mixing different data types.
+	•	Example:x = 5      # int
+y = 2.0    # float
+result = x + y  # result becomes 7.0 (float)
+    	•	Why: To prevent data loss or errors when combining types.
